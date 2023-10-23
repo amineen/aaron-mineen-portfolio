@@ -27,6 +27,7 @@ const Reveal: React.FC<RevealProps> = ({ children, width = "fit-content" }) => {
         }}
         initial="hidden"
         animate={mainControls}
+        whileInView="visible"
         transition={{ duration: 0.5, delay: 0.25 }}
       >
         {children}
